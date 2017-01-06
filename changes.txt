@@ -1,0 +1,9 @@
+changes in web.xml
+add below code in web.xml
+
+<resource-ref>
+    <description>JNDI Datasource</description>
+    <res-ref-name>jdbc/DBName</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
